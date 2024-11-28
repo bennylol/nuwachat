@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/profileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="信箱"
+        android:textSize="22sp" 
+    android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="姓名"
+        android:textSize="22sp"
+    android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="年齡"
+        android:textSize="22sp"
+    android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="年級"
+        android:textSize="22sp"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/profileFaceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Face Name"
+        android:textSize="22sp"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/profileFaceID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Face ID"
+        android:textSize="22sp"
+    android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="儲存"
+        android:textSize="22sp"
+    android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textSize="22sp"
+    />
+
+</LinearLayout>
