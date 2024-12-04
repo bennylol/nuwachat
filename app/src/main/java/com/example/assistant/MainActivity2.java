@@ -58,7 +58,7 @@ public class MainActivity2 extends AppCompatActivity {
     public static String Topic_nam = "";
     public static String User_name = "";
 
-    public static final String API_key = "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";
+    public static final String API_key = "";
     public static String assistant_id = null;
     private Button StartButton;
     private DatabaseReference mDatabase;
